@@ -1,0 +1,13 @@
+body {
+	  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	  background-image: url('https://images.pling.com/img/00/00/56/51/88/1406747/80ec7270625d3d48df6a99bcc906b25aa4b1c091b01f294d0936dea0d720aaf46d7b.png');
+	  background-size: auto;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  margin: 0;
+	  height: 100vh;
+	  width: 100vw;
+	  overflow: hidden;
+	  user-select: none;
+  	-webkit-user-drag: none;
+}
