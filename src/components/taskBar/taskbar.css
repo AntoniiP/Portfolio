@@ -37,13 +37,29 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: auto;
     text-align: center;
     color: white;
+    margin: 0;
 }
 
 .time p {
-    margin: 0 20px 0 0; /* FOR NOW */
-    font-weight:500;
+    font-weight: 500;
     font-size: 2.25vh;
+    margin: 1px;
+}
+
+.show-desktop {
+    width: 15px;
+    margin-left: 5px;
+    border: 1px solid #444c4c;
+    background: linear-gradient(180deg,hsla(0,0%,100%,.2),rgba(0,0,0,.2),hsla(0,0%,100%,.1333333333)),radial-gradient(circle at 150% 100%,transparent 65% 70%,hsla(0,0%,100%,.2) 75%)
+
+}
+.show-desktop::hover {
+   background-color: hsla(0,0%,100%,.2);
+
+}
+.right-side {
+    display: flex;
+    flex-direction: row;
 }
